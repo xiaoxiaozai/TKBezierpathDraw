@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D511F0671C7456D2008825F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D511F0661C7456D2008825F0 /* main.m */; };
+		D511F06A1C7456D2008825F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D511F0691C7456D2008825F0 /* AppDelegate.m */; };
+		D511F06D1C7456D2008825F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D511F06C1C7456D2008825F0 /* ViewController.m */; };
+		D511F0701C7456D2008825F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D511F06E1C7456D2008825F0 /* Main.storyboard */; };
+		D511F0721C7456D2008825F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D511F0711C7456D2008825F0 /* Assets.xcassets */; };
+		D511F0751C7456D2008825F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D511F0731C7456D2008825F0 /* LaunchScreen.storyboard */; };
+		D511F0801C7456D3008825F0 /* TKBezierpathDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D511F07F1C7456D3008825F0 /* TKBezierpathDrawTests.m */; };
+		D511F08B1C7456D3008825F0 /* TKBezierpathDrawUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D511F08A1C7456D3008825F0 /* TKBezierpathDrawUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D511F07C1C7456D3008825F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D511F05A1C7456D2008825F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D511F0611C7456D2008825F0;
+			remoteInfo = TKBezierpathDraw;
+		};
+		D511F0871C7456D3008825F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D511F05A1C7456D2008825F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D511F0611C7456D2008825F0;
+			remoteInfo = TKBezierpathDraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D511F0621C7456D2008825F0 /* TKBezierpathDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKBezierpathDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D511F0661C7456D2008825F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D511F0681C7456D2008825F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D511F0691C7456D2008825F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D511F06B1C7456D2008825F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D511F06C1C7456D2008825F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D511F06F1C7456D2008825F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D511F0711C7456D2008825F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D511F0741C7456D2008825F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D511F0761C7456D2008825F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D511F07B1C7456D3008825F0 /* TKBezierpathDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKBezierpathDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D511F07F1C7456D3008825F0 /* TKBezierpathDrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKBezierpathDrawTests.m; sourceTree = "<group>"; };
+		D511F0811C7456D3008825F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D511F0861C7456D3008825F0 /* TKBezierpathDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKBezierpathDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D511F08A1C7456D3008825F0 /* TKBezierpathDrawUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKBezierpathDrawUITests.m; sourceTree = "<group>"; };
+		D511F08C1C7456D3008825F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D511F05F1C7456D2008825F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D511F0781C7456D3008825F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D511F0831C7456D3008825F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D511F0591C7456D2008825F0 = {
+			isa = PBXGroup;
+			children = (
+				D511F0641C7456D2008825F0 /* TKBezierpathDraw */,
+				D511F07E1C7456D3008825F0 /* TKBezierpathDrawTests */,
+				D511F0891C7456D3008825F0 /* TKBezierpathDrawUITests */,
+				D511F0631C7456D2008825F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D511F0631C7456D2008825F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D511F0621C7456D2008825F0 /* TKBezierpathDraw.app */,
+				D511F07B1C7456D3008825F0 /* TKBezierpathDrawTests.xctest */,
+				D511F0861C7456D3008825F0 /* TKBezierpathDrawUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D511F0641C7456D2008825F0 /* TKBezierpathDraw */ = {
+			isa = PBXGroup;
+			children = (
+				D511F0681C7456D2008825F0 /* AppDelegate.h */,
+				D511F0691C7456D2008825F0 /* AppDelegate.m */,
+				D511F06B1C7456D2008825F0 /* ViewController.h */,
+				D511F06C1C7456D2008825F0 /* ViewController.m */,
+				D511F06E1C7456D2008825F0 /* Main.storyboard */,
+				D511F0711C7456D2008825F0 /* Assets.xcassets */,
+				D511F0731C7456D2008825F0 /* LaunchScreen.storyboard */,
+				D511F0761C7456D2008825F0 /* Info.plist */,
+				D511F0651C7456D2008825F0 /* Supporting Files */,
+			);
+			path = TKBezierpathDraw;
+			sourceTree = "<group>";
+		};
+		D511F0651C7456D2008825F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D511F0661C7456D2008825F0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D511F07E1C7456D3008825F0 /* TKBezierpathDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				D511F07F1C7456D3008825F0 /* TKBezierpathDrawTests.m */,
+				D511F0811C7456D3008825F0 /* Info.plist */,
+			);
+			path = TKBezierpathDrawTests;
+			sourceTree = "<group>";
+		};
+		D511F0891C7456D3008825F0 /* TKBezierpathDrawUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D511F08A1C7456D3008825F0 /* TKBezierpathDrawUITests.m */,
+				D511F08C1C7456D3008825F0 /* Info.plist */,
+			);
+			path = TKBezierpathDrawUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D511F0611C7456D2008825F0 /* TKBezierpathDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D511F08F1C7456D3008825F0 /* Build configuration list for PBXNativeTarget "TKBezierpathDraw" */;
+			buildPhases = (
+				D511F05E1C7456D2008825F0 /* Sources */,
+				D511F05F1C7456D2008825F0 /* Frameworks */,
+				D511F0601C7456D2008825F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKBezierpathDraw;
+			productName = TKBezierpathDraw;
+			productReference = D511F0621C7456D2008825F0 /* TKBezierpathDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D511F07A1C7456D3008825F0 /* TKBezierpathDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D511F0921C7456D3008825F0 /* Build configuration list for PBXNativeTarget "TKBezierpathDrawTests" */;
+			buildPhases = (
+				D511F0771C7456D3008825F0 /* Sources */,
+				D511F0781C7456D3008825F0 /* Frameworks */,
+				D511F0791C7456D3008825F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D511F07D1C7456D3008825F0 /* PBXTargetDependency */,
+			);
+			name = TKBezierpathDrawTests;
+			productName = TKBezierpathDrawTests;
+			productReference = D511F07B1C7456D3008825F0 /* TKBezierpathDrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D511F0851C7456D3008825F0 /* TKBezierpathDrawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D511F0951C7456D3008825F0 /* Build configuration list for PBXNativeTarget "TKBezierpathDrawUITests" */;
+			buildPhases = (
+				D511F0821C7456D3008825F0 /* Sources */,
+				D511F0831C7456D3008825F0 /* Frameworks */,
+				D511F0841C7456D3008825F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D511F0881C7456D3008825F0 /* PBXTargetDependency */,
+			);
+			name = TKBezierpathDrawUITests;
+			productName = TKBezierpathDrawUITests;
+			productReference = D511F0861C7456D3008825F0 /* TKBezierpathDrawUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D511F05A1C7456D2008825F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "翟宇";
+				TargetAttributes = {
+					D511F0611C7456D2008825F0 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D511F07A1C7456D3008825F0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D511F0611C7456D2008825F0;
+					};
+					D511F0851C7456D3008825F0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D511F0611C7456D2008825F0;
+					};
+				};
+			};
+			buildConfigurationList = D511F05D1C7456D2008825F0 /* Build configuration list for PBXProject "TKBezierpathDraw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D511F0591C7456D2008825F0;
+			productRefGroup = D511F0631C7456D2008825F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D511F0611C7456D2008825F0 /* TKBezierpathDraw */,
+				D511F07A1C7456D3008825F0 /* TKBezierpathDrawTests */,
+				D511F0851C7456D3008825F0 /* TKBezierpathDrawUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D511F0601C7456D2008825F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D511F0751C7456D2008825F0 /* LaunchScreen.storyboard in Resources */,
+				D511F0721C7456D2008825F0 /* Assets.xcassets in Resources */,
+				D511F0701C7456D2008825F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D511F0791C7456D3008825F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D511F0841C7456D3008825F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D511F05E1C7456D2008825F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D511F06D1C7456D2008825F0 /* ViewController.m in Sources */,
+				D511F06A1C7456D2008825F0 /* AppDelegate.m in Sources */,
+				D511F0671C7456D2008825F0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D511F0771C7456D3008825F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D511F0801C7456D3008825F0 /* TKBezierpathDrawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D511F0821C7456D3008825F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D511F08B1C7456D3008825F0 /* TKBezierpathDrawUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D511F07D1C7456D3008825F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D511F0611C7456D2008825F0 /* TKBezierpathDraw */;
+			targetProxy = D511F07C1C7456D3008825F0 /* PBXContainerItemProxy */;
+		};
+		D511F0881C7456D3008825F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D511F0611C7456D2008825F0 /* TKBezierpathDraw */;
+			targetProxy = D511F0871C7456D3008825F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D511F06E1C7456D2008825F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D511F06F1C7456D2008825F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D511F0731C7456D2008825F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D511F0741C7456D2008825F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D511F08D1C7456D3008825F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D511F08E1C7456D3008825F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D511F0901C7456D3008825F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TKBezierpathDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekiu.test.TKBezierpathDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D511F0911C7456D3008825F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TKBezierpathDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekiu.test.TKBezierpathDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D511F0931C7456D3008825F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TKBezierpathDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekiu.test.TKBezierpathDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKBezierpathDraw.app/TKBezierpathDraw";
+			};
+			name = Debug;
+		};
+		D511F0941C7456D3008825F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TKBezierpathDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekiu.test.TKBezierpathDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKBezierpathDraw.app/TKBezierpathDraw";
+			};
+			name = Release;
+		};
+		D511F0961C7456D3008825F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TKBezierpathDrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekiu.test.TKBezierpathDrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TKBezierpathDraw;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D511F0971C7456D3008825F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TKBezierpathDrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekiu.test.TKBezierpathDrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TKBezierpathDraw;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D511F05D1C7456D2008825F0 /* Build configuration list for PBXProject "TKBezierpathDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D511F08D1C7456D3008825F0 /* Debug */,
+				D511F08E1C7456D3008825F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D511F08F1C7456D3008825F0 /* Build configuration list for PBXNativeTarget "TKBezierpathDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D511F0901C7456D3008825F0 /* Debug */,
+				D511F0911C7456D3008825F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D511F0921C7456D3008825F0 /* Build configuration list for PBXNativeTarget "TKBezierpathDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D511F0931C7456D3008825F0 /* Debug */,
+				D511F0941C7456D3008825F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D511F0951C7456D3008825F0 /* Build configuration list for PBXNativeTarget "TKBezierpathDrawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D511F0961C7456D3008825F0 /* Debug */,
+				D511F0971C7456D3008825F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D511F05A1C7456D2008825F0 /* Project object */;
+}
