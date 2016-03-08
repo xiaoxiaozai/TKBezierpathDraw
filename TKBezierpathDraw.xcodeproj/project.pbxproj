@@ -15,6 +15,7 @@
 		D511F0751C7456D2008825F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D511F0731C7456D2008825F0 /* LaunchScreen.storyboard */; };
 		D511F0801C7456D3008825F0 /* TKBezierpathDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D511F07F1C7456D3008825F0 /* TKBezierpathDrawTests.m */; };
 		D511F08B1C7456D3008825F0 /* TKBezierpathDrawUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D511F08A1C7456D3008825F0 /* TKBezierpathDrawUITests.m */; };
+		D511F09A1C7457AB008825F0 /* TKBezierpathDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = D511F0991C7457AB008825F0 /* TKBezierpathDrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D511F0861C7456D3008825F0 /* TKBezierpathDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKBezierpathDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D511F08A1C7456D3008825F0 /* TKBezierpathDrawUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKBezierpathDrawUITests.m; sourceTree = "<group>"; };
 		D511F08C1C7456D3008825F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D511F0981C7457AB008825F0 /* TKBezierpathDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKBezierpathDrawView.h; sourceTree = "<group>"; };
+		D511F0991C7457AB008825F0 /* TKBezierpathDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKBezierpathDrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				D511F0731C7456D2008825F0 /* LaunchScreen.storyboard */,
 				D511F0761C7456D2008825F0 /* Info.plist */,
 				D511F0651C7456D2008825F0 /* Supporting Files */,
+				D511F0981C7457AB008825F0 /* TKBezierpathDrawView.h */,
+				D511F0991C7457AB008825F0 /* TKBezierpathDrawView.m */,
 			);
 			path = TKBezierpathDraw;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				D511F06D1C7456D2008825F0 /* ViewController.m in Sources */,
 				D511F06A1C7456D2008825F0 /* AppDelegate.m in Sources */,
 				D511F0671C7456D2008825F0 /* main.m in Sources */,
+				D511F09A1C7457AB008825F0 /* TKBezierpathDrawView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
