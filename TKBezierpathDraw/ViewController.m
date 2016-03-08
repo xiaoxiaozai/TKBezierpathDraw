@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TKBezierpathDrawView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    TKBezierpathDrawView* tkbdv = [[TKBezierpathDrawView alloc]init];
+    tkbdv.frame = CGRectMake(0, 64, 300, 300);
+    tkbdv.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:tkbdv];
 }
 
 - (void)didReceiveMemoryWarning {
